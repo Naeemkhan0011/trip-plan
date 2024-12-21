@@ -1,0 +1,18 @@
+export default {
+  primaryColor: '#1B1718',
+  greyColor: '#929292',
+  lightGreyColor: '#EFF0F6',
+  darkGreyColor: '#EFEFEF',
+  borderColor: '#EDF1F3',
+  orangeColor: '#F2894F',
+  purpleColor: '#462F4B',
+  white: '#FFFFFF',
+  textColor: '#1B1718',
+  lightOrangeColor: '#FDECE2',
+  lightPurpleColor: '#8f7783',
+  darkOrangeColor: '#FAE3D7',
+  redColor: '#FD3250',
+  greenColor: '#00B69B',
+  blueColor: '#07407B',
+  modalBackGroundColor: '#000000CC',
+};
