@@ -1,21 +1,21 @@
-import { SafeAreaView, StatusBar, StyleSheet, Text, View } from 'react-native'
-import React from 'react'
-import config from '../../config'
+import { SafeAreaView, StatusBar, StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import config from '../../config';
 import AppImage from '../../components/AppImage';
 
 const Splash = ({ navigation }) => {
-
-
   setTimeout(() => {
-    // navigation.navigate(config.routes.CHOOSE_LANGUAGE)
-  }, 3000);
+    navigation.navigate(config.routes.SIGN_IN);
+  }, 1500);
   return (
-    <SafeAreaView style={{
-      flex: 1,
-      justifyContent:'center',
-      alignItems:'center',
-      backgroundColor: config.colors.white
-    }}>
+    <SafeAreaView
+      style={{
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: config.colors.white,
+      }}
+    >
       <StatusBar
         barStyle={'dark-content'}
         translucent={true}
@@ -29,9 +29,9 @@ const Splash = ({ navigation }) => {
         }}
       />
     </SafeAreaView>
-  )
-}
+  );
+};
 
-export default Splash
+export default Splash;
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({});
